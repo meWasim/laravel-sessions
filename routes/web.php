@@ -15,4 +15,5 @@ use App\Http\Controllers\SessionController;
 */
 
 Route::get('/',[SessionController::class,'index']);
+Route::get('/about',[SessionController::class,'about']);
 
